@@ -1,0 +1,115 @@
+<style>
+header {
+    background-color:; /* Header arka plan rengi */
+    color: ;           /* Yazı rengi */
+    padding: ;          /* Header iç boşluğu */
+}
+
+.logo-img {
+    margin-top: 0px;       /* Logo üst boşluğu */
+    margin-bottom : 17px;    /* Logo alt boşluğu */
+    margin-left: 95px;      /* Logo sol boşluğu */
+    margin-right: 0px;     /* Logo sağ boşluğu */
+    height: 50px;           /* Logo yüksekliği */
+    width: auto;            /* Genişlik otomatik, oran korunur */
+}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #01796f 0%, #019987 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.96);
+            padding: 48px;
+            border-radius: 24px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            text-align: center;
+        }
+
+        h2 {
+            color: #1a1a1a;
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 16px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        input {
+            width: 100%;
+            padding: 14px;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            font-size: 16px;
+            background: #ffffff;
+            transition: all 0.3s ease;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #01796f;
+            box-shadow: 0 0 0 3px rgba(1, 121, 111, 0.1);
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: #01796f;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #016159;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .message {
+            margin-top: 15px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #01796f;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 32px;
+                border-radius: 16px;
+            }
+
+            h2 {
+                font-size: 20px;
+                margin-bottom: 16px;
+            }
+        }
+    </style>
