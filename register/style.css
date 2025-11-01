@@ -1,0 +1,148 @@
+   <style>
+header {
+    background-color:; /* Header arka plan rengi */
+    color: ;           /* Yazı rengi */
+    padding: ;          /* Header iç boşluğu */
+}
+
+.logo-img {
+    margin-top: 0px;       /* Logo üst boşluğu */
+    margin-bottom : 17px;    /* Logo alt boşluğu */
+    margin-left: 95px;      /* Logo sol boşluğu */
+    margin-right: 0px;     /* Logo sağ boşluğu */
+    height: 50px;           /* Logo yüksekliği */
+    width: auto;            /* Genişlik otomatik, oran korunur */
+}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+p {
+  font-size: 14px; /* Küçük metin */
+  color: white; /* Beyaz renk */
+  font-family: 'Arial', sans-serif; /* Modern font */
+  line-height: 1.5; /* Satır yüksekliği */
+  text-align: center; /* Ortalanmış metin */
+  text-transform: capitalize; /* Baş harfleri büyük yap */
+  letter-spacing: 0.5px; /* Harfler arasındaki mesafe */
+  margin: 0px; /* Dış boşluk */
+}
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #01796f 0%, #019987 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+
+        .register-container {
+            background: rgba(255, 255, 255, 0.96);
+            padding: 48px;
+            border-radius: 24px;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        h2 {
+            color: #1a1a1a;
+            font-size: 32px;
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+
+        .input-group {
+            margin-bottom: 24px;
+            position: relative;
+        }
+
+        input {
+            width: 100%;
+            padding: 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background: #ffffff;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #01796f;
+            box-shadow: 0 0 0 3px rgba(1, 121, 111, 0.1);
+        }
+
+        input::placeholder {
+            color: #9e9e9e;
+        }
+
+        button {
+            width: 100%;
+            padding: 16px;
+            background: #01796f;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 16px;
+        }
+
+        button:hover {
+            background: #016159;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-link {
+            text-align: center;
+            margin-top: 24px;
+            color: #666;
+        }
+
+        .login-link a {
+            color: #01796f;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        @media (max-width: 480px) {
+            .register-container {
+                padding: 32px;
+                border-radius: 16px;
+            }
+
+            h2 {
+                font-size: 24px;
+                margin-bottom: 32px;
+            }
+        }
+    </style>
+<style>
+    .avatar-selection {
+        display: flex;
+        gap: 8px;
+        margin-top: 8px;
+    }
+
+    .avatar-option {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        border: 2px solid transparent;
+        transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .avatar-option:hover {
+        transform: scale(1.1);
+        border-color: #01796f;
+    }
+</style>
