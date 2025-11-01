@@ -5,13 +5,13 @@
 
     // Firebase yapılandırması
     const firebaseConfig = {
-        apiKey: "AIzaSyAaBpFHuORdj_8gMRYrTbHP4au8s2nN13E",
-        authDomain: "dynexadmin.firebaseapp.com",
-        databaseURL: "https://dynexadmin-default-rtdb.europe-west1.firebasedatabase.app",
-        projectId: "dynexadmin",
-        storageBucket: "dynexadmin.appspot.com",
-        messagingSenderId: "52244434742",
-        appId: "1:52244434742:web:b122a1c90011acd6836d97",
+        apiKey: "APP_APIKEY",
+        authDomain: "APP_AUTH_DOMAIN",
+        databaseURL: "APP_DATABASE_URL",
+        projectId: "APP_PROJECT_ID",
+        storageBucket: "APP_STORAGE_BUCKET",
+        messagingSenderId: "APP_MESSAGING_SENDER_ID",
+        appId: "APP_APP_ID",
     };
 
     // Firebase'i başlat
