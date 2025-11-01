@@ -1,6 +1,6 @@
 # DynexChat 🚀
 
-![DynexChat Logo](https://via.placeholder.com/150)
+![DynexChat Logo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC5jxscfuWUHgI4zVKgED0SW88gviSfqaB4i6B5IdBnIgLND-OvgxVexxxFQsKi60IzyGvJZnqNjChR9jisawau-F3OozEKRnPoBZul8G9DWX3188drjKjEqBWpBPRXHtHnWsq6q5D1uCsFwljt4Rb3Gt7fMwipN9zZRbRazyY82nr8_mEgr8NGiP3Pk0/s1117/1000387428.png)
 
 **DynexChat**, HTML, CSS ve JavaScript ile geliştirilmiş, Firebase destekli canlı bir sohbet uygulamasıdır.  
 Bu proje, kullanıcıların giriş yapmasını, şifrelerini sıfırlamasını ve gerçek zamanlı olarak sohbet etmelerini sağlar.  
