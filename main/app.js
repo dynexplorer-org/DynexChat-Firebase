@@ -35,14 +35,14 @@
 
     document.addEventListener("DOMContentLoaded", async function () {
         const firebaseConfig = {
-            apiKey: "AIzaSyAaBpFHuORdj_8gMRYrTbHP4au8s2nN13E",
-            authDomain: "dynexadmin.firebaseapp.com",
-            projectId: "dynexadmin",
-            storageBucket: "dynexadmin.firebasestorage.app",
-            messagingSenderId: "52244434742",
-            appId: "1:52244434742:web:b122a1c90011acd6836d97",
-            measurementId: "G-PJQTC563T7",
-            databaseURL: "https://dynexadmin-default-rtdb.europe-west1.firebasedatabase.app",
+            apiKey: "APP_API_KEY",
+            authDomain: "APP_AUTH_DOMAIN",
+            projectId: "APP_ID",
+            storageBucket: "APP_STORAGE_BUCKET",
+            messagingSenderId: "APP_MESSAGING_SENDER_ID",
+            appId: "APP_ID",
+            measurementId: "APP_MEASUREMENT_ID",
+            databaseURL: "APP_DATABASE_URL",
         };
 
         const app = initializeApp(firebaseConfig);
